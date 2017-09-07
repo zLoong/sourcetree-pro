@@ -6,6 +6,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="./index.css" rel="stylesheet">
+  <script type="text/javascript" src="./index.js"></script>
 </head>
 
 <body>
@@ -13,6 +14,14 @@
   <div class="header">
     Win & Mac 共同
   </div>
+  <button id='addBtn' class='btn'>新增</button>
+  <script type="text/javascript">
+    document.querySelector('#addBtn').addEventListener('click',function(){
+      var ret=add(5,3);
+      alert(ret);
+    },false)
+  </script>
+  
 </body>
 
 </html>
