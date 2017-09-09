@@ -1,5 +1,9 @@
+*{
+    padding: 0;
+    margin: 0;
+}
 html {
-    background: #fafafa;
+    background: #00F;
 }
 .header{
     width: 100%;
@@ -25,4 +29,5 @@ html {
     color: #AAA;
     font-size: 14px;
     bottom: 0;
+    background: red;
 }
